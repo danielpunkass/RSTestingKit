@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6532FDAF127DF20900227DF8 /* RSTestingKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6532FDA2127DF20900227DF8 /* RSTestingKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6532FDB0127DF20900227DF8 /* RSTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6532FDA3127DF20900227DF8 /* RSTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6532FDB1127DF20900227DF8 /* RSTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6532FDA4127DF20900227DF8 /* RSTestCase.m */; };
+		6532FDB2127DF20900227DF8 /* RSRunLoopWaitingTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6532FDA5127DF20900227DF8 /* RSRunLoopWaitingTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6532FDB3127DF20900227DF8 /* RSRunLoopWaitingTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6532FDA6127DF20900227DF8 /* RSRunLoopWaitingTestCase.m */; };
+		6532FDB4127DF20900227DF8 /* RSHTTPClientTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6532FDA8127DF20900227DF8 /* RSHTTPClientTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6532FDB5127DF20900227DF8 /* RSHTTPClientTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6532FDA9127DF20900227DF8 /* RSHTTPClientTestCase.m */; };
+		6532FDB6127DF20900227DF8 /* GTMGarbageCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6532FDAA127DF20900227DF8 /* GTMGarbageCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6532FDB7127DF20900227DF8 /* GTMDebugSelectorValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6532FDAB127DF20900227DF8 /* GTMDebugSelectorValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6532FDB8127DF20900227DF8 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 6532FDAC127DF20900227DF8 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6532FDB9127DF20900227DF8 /* GTMHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6532FDAD127DF20900227DF8 /* GTMHTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6532FDBA127DF20900227DF8 /* GTMHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6532FDAE127DF20900227DF8 /* GTMHTTPServer.m */; };
+		6532FDC4127DF27000227DF8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6532FDC3127DF27000227DF8 /* SenTestingKit.framework */; };
+		6532FE21127DF6E900227DF8 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6532FE20127DF6E900227DF8 /* License.txt */; };
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* RSTestingKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTestingKit_Prefix.pch; sourceTree = "<group>"; };
+		6532FDA2127DF20900227DF8 /* RSTestingKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTestingKit.h; sourceTree = "<group>"; };
+		6532FDA3127DF20900227DF8 /* RSTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTestCase.h; sourceTree = "<group>"; };
+		6532FDA4127DF20900227DF8 /* RSTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTestCase.m; sourceTree = "<group>"; };
+		6532FDA5127DF20900227DF8 /* RSRunLoopWaitingTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSRunLoopWaitingTestCase.h; sourceTree = "<group>"; };
+		6532FDA6127DF20900227DF8 /* RSRunLoopWaitingTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSRunLoopWaitingTestCase.m; sourceTree = "<group>"; };
+		6532FDA8127DF20900227DF8 /* RSHTTPClientTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSHTTPClientTestCase.h; sourceTree = "<group>"; };
+		6532FDA9127DF20900227DF8 /* RSHTTPClientTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSHTTPClientTestCase.m; sourceTree = "<group>"; };
+		6532FDAA127DF20900227DF8 /* GTMGarbageCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMGarbageCollection.h; sourceTree = "<group>"; };
+		6532FDAB127DF20900227DF8 /* GTMDebugSelectorValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDebugSelectorValidation.h; sourceTree = "<group>"; };
+		6532FDAC127DF20900227DF8 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		6532FDAD127DF20900227DF8 /* GTMHTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPServer.h; sourceTree = "<group>"; };
+		6532FDAE127DF20900227DF8 /* GTMHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPServer.m; sourceTree = "<group>"; };
+		6532FDC3127DF27000227DF8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6532FE20127DF6E900227DF8 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = License.txt; path = ../License.txt; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* RSTestingKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RSTestingKit-Info.plist"; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* RSTestingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSTestingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+				6532FDC4127DF27000227DF8 /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* RSTestingKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* RSTestingKit */ = {
+			isa = PBXGroup;
+			children = (
+				6532FE20127DF6E900227DF8 /* License.txt */,
+				32DBCF5E0370ADEE00C91783 /* RSTestingKit_Prefix.pch */,
+				6532FDA1127DF20900227DF8 /* RSTestingKit */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = RSTestingKit;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5A0486A6940098B216 /* RSTestingKit-Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+				6532FDC3127DF27000227DF8 /* SenTestingKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6532FDA1127DF20900227DF8 /* RSTestingKit */ = {
+			isa = PBXGroup;
+			children = (
+				6532FDA2127DF20900227DF8 /* RSTestingKit.h */,
+				6532FDA3127DF20900227DF8 /* RSTestCase.h */,
+				6532FDA4127DF20900227DF8 /* RSTestCase.m */,
+				6532FDA5127DF20900227DF8 /* RSRunLoopWaitingTestCase.h */,
+				6532FDA6127DF20900227DF8 /* RSRunLoopWaitingTestCase.m */,
+				6532FDA7127DF20900227DF8 /* RSHTTPClientTestCase */,
+			);
+			name = RSTestingKit;
+			sourceTree = "<group>";
+		};
+		6532FDA7127DF20900227DF8 /* RSHTTPClientTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				6532FDA8127DF20900227DF8 /* RSHTTPClientTestCase.h */,
+				6532FDA9127DF20900227DF8 /* RSHTTPClientTestCase.m */,
+				6532FDAA127DF20900227DF8 /* GTMGarbageCollection.h */,
+				6532FDAB127DF20900227DF8 /* GTMDebugSelectorValidation.h */,
+				6532FDAC127DF20900227DF8 /* GTMDefines.h */,
+				6532FDAD127DF20900227DF8 /* GTMHTTPServer.h */,
+				6532FDAE127DF20900227DF8 /* GTMHTTPServer.m */,
+			);
+			path = RSHTTPClientTestCase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6532FDAF127DF20900227DF8 /* RSTestingKit.h in Headers */,
+				6532FDB0127DF20900227DF8 /* RSTestCase.h in Headers */,
+				6532FDB2127DF20900227DF8 /* RSRunLoopWaitingTestCase.h in Headers */,
+				6532FDB4127DF20900227DF8 /* RSHTTPClientTestCase.h in Headers */,
+				6532FDB6127DF20900227DF8 /* GTMGarbageCollection.h in Headers */,
+				6532FDB7127DF20900227DF8 /* GTMDebugSelectorValidation.h in Headers */,
+				6532FDB8127DF20900227DF8 /* GTMDefines.h in Headers */,
+				6532FDB9127DF20900227DF8 /* GTMHTTPServer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8DC2EF4F0486A6940098B216 /* RSTestingKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "RSTestingKit" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSTestingKit;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = RSTestingKit;
+			productReference = 8DC2EF5B0486A6940098B216 /* RSTestingKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "RSTestingKit" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* RSTestingKit */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* RSTestingKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+				6532FE21127DF6E900227DF8 /* License.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6532FDB1127DF20900227DF8 /* RSTestCase.m in Sources */,
+				6532FDB3127DF20900227DF8 /* RSRunLoopWaitingTestCase.m in Sources */,
+				6532FDB5127DF20900227DF8 /* RSHTTPClientTestCase.m in Sources */,
+				6532FDBA127DF20900227DF8 /* GTMHTTPServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RSTestingKit_Prefix.pch;
+				INFOPLIST_FILE = "RSTestingKit-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = RSTestingKit;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RSTestingKit_Prefix.pch;
+				INFOPLIST_FILE = "RSTestingKit-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = RSTestingKit;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "RSTestingKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "RSTestingKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6532000F127E43E300227DF8 /* Tests_ExampleInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 6532000E127E43E300227DF8 /* Tests_ExampleInput.m */; };
+		65320032127E49B100227DF8 /* TestInputs in Resources */ = {isa = PBXBuildFile; fileRef = 6532002F127E49B100227DF8 /* TestInputs */; };
+		65320041127E4A5C00227DF8 /* Tests_ExampleRunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 65320040127E4A5C00227DF8 /* Tests_ExampleRunLoop.m */; };
+		6532FE97127DF98300227DF8 /* Tests_ExampleHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 6532FE96127DF98300227DF8 /* Tests_ExampleHTTP.m */; };
+		6532FFEC127E38CD00227DF8 /* RSTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6532FFE9127E38B400227DF8 /* RSTestingKit.framework */; };
+		65EDFC781280997E0039F5C2 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65EDFC771280997E0039F5C2 /* License.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6532FFE8127E38B400227DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6532FFE4127E38B400227DF8 /* RSTestingKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = RSTestingKit;
+		};
+		6532FFEA127E38BB00227DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6532FFE4127E38B400227DF8 /* RSTestingKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = RSTestingKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* RSTestingKitExamples_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTestingKitExamples_Prefix.pch; sourceTree = "<group>"; };
+		6532000D127E43E300227DF8 /* Tests_ExampleInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tests_ExampleInput.h; sourceTree = "<group>"; };
+		6532000E127E43E300227DF8 /* Tests_ExampleInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tests_ExampleInput.m; sourceTree = "<group>"; };
+		6532002F127E49B100227DF8 /* TestInputs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TestInputs; sourceTree = "<group>"; };
+		6532003F127E4A5C00227DF8 /* Tests_ExampleRunLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tests_ExampleRunLoop.h; sourceTree = "<group>"; };
+		65320040127E4A5C00227DF8 /* Tests_ExampleRunLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tests_ExampleRunLoop.m; sourceTree = "<group>"; };
+		6532FE7C127DF89E00227DF8 /* RSTestingKitExamples.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSTestingKitExamples.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6532FE7D127DF89E00227DF8 /* RSTestingKitExamples-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSTestingKitExamples-Info.plist"; sourceTree = "<group>"; };
+		6532FE95127DF98300227DF8 /* Tests_ExampleHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tests_ExampleHTTP.h; sourceTree = "<group>"; };
+		6532FE96127DF98300227DF8 /* Tests_ExampleHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tests_ExampleHTTP.m; sourceTree = "<group>"; };
+		6532FFE4127E38B400227DF8 /* RSTestingKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RSTestingKit.xcodeproj; path = ../Framework/RSTestingKit.xcodeproj; sourceTree = SOURCE_ROOT; };
+		65EDFC771280997E0039F5C2 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = License.txt; path = ../License.txt; sourceTree = SOURCE_ROOT; };
+		8DC2EF5A0486A6940098B216 /* RSTestingKitExamples-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RSTestingKitExamples-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6532FE79127DF89E00227DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6532FFEC127E38CD00227DF8 /* RSTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6532FE7C127DF89E00227DF8 /* RSTestingKitExamples.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* RSTestingKitExamples */ = {
+			isa = PBXGroup;
+			children = (
+				65EDFC771280997E0039F5C2 /* License.txt */,
+				32DBCF5E0370ADEE00C91783 /* RSTestingKitExamples_Prefix.pch */,
+				6532000D127E43E300227DF8 /* Tests_ExampleInput.h */,
+				6532000E127E43E300227DF8 /* Tests_ExampleInput.m */,
+				6532003F127E4A5C00227DF8 /* Tests_ExampleRunLoop.h */,
+				65320040127E4A5C00227DF8 /* Tests_ExampleRunLoop.m */,
+				6532FE95127DF98300227DF8 /* Tests_ExampleHTTP.h */,
+				6532FE96127DF98300227DF8 /* Tests_ExampleHTTP.m */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				6532FE7D127DF89E00227DF8 /* RSTestingKitExamples-Info.plist */,
+			);
+			name = RSTestingKitExamples;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				6532FFE4127E38B400227DF8 /* RSTestingKit.xcodeproj */,
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6532002F127E49B100227DF8 /* TestInputs */,
+				8DC2EF5A0486A6940098B216 /* RSTestingKitExamples-Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		6532FFE5127E38B400227DF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6532FFE9127E38B400227DF8 /* RSTestingKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6532FE7B127DF89E00227DF8 /* RSTestingKitExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6532FE80127DF89F00227DF8 /* Build configuration list for PBXNativeTarget "RSTestingKitExamples" */;
+			buildPhases = (
+				6532FE77127DF89E00227DF8 /* Resources */,
+				6532FE78127DF89E00227DF8 /* Sources */,
+				6532FE79127DF89E00227DF8 /* Frameworks */,
+				6532FE7A127DF89E00227DF8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6532FFEB127E38BB00227DF8 /* PBXTargetDependency */,
+			);
+			name = RSTestingKitExamples;
+			productName = RSTestingKitExamples;
+			productReference = 6532FE7C127DF89E00227DF8 /* RSTestingKitExamples.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "RSTestingKitExamples" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* RSTestingKitExamples */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6532FFE5127E38B400227DF8 /* Products */;
+					ProjectRef = 6532FFE4127E38B400227DF8 /* RSTestingKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6532FE7B127DF89E00227DF8 /* RSTestingKitExamples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6532FFE9127E38B400227DF8 /* RSTestingKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RSTestingKit.framework;
+			remoteRef = 6532FFE8127E38B400227DF8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6532FE77127DF89E00227DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65320032127E49B100227DF8 /* TestInputs in Resources */,
+				65EDFC781280997E0039F5C2 /* License.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6532FE7A127DF89E00227DF8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6532FE78127DF89E00227DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6532FE97127DF98300227DF8 /* Tests_ExampleHTTP.m in Sources */,
+				6532000F127E43E300227DF8 /* Tests_ExampleInput.m in Sources */,
+				65320041127E4A5C00227DF8 /* Tests_ExampleRunLoop.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6532FFEB127E38BB00227DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSTestingKit;
+			targetProxy = 6532FFEA127E38BB00227DF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		6532FE7E127DF89F00227DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RSTestingKitExamples_Prefix.pch;
+				INFOPLIST_FILE = "RSTestingKitExamples-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = RSTestingKitExamples;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6532FE7F127DF89F00227DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RSTestingKitExamples_Prefix.pch;
+				INFOPLIST_FILE = "RSTestingKitExamples-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = RSTestingKitExamples;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "RSTestingKitExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6532FE80127DF89F00227DF8 /* Build configuration list for PBXNativeTarget "RSTestingKitExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6532FE7E127DF89F00227DF8 /* Debug */,
+				6532FE7F127DF89F00227DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

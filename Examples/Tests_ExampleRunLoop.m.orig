@@ -1,0 +1,64 @@
+//
+//  Tests_ExampleRunLoop.m
+//  RSTestingKitExamples
+//
+//  Created by daniel on 10/31/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+@interface NSString (Test)
+- (NSString*) stringByReversing;
+@end
+
+#import "Tests_ExampleRunLoop.h"
+
+
+@implementation Tests_ExampleRunLoop
+
+- (void) myDelayedMethod
+{
+	[self setWaitingForTestCompletion:NO];
+}
+
+- (void) testSimpleRunLoop
+{
+	// Contrived example, let's make sure that performSelector:withObject:afterDelay:
+	// doesn't return any earlier than the we ask it to.
+	
+	NSTimeInterval startTime = [[NSDate date] timeIntervalSinceReferenceDate];
+	
+	NSTimeInterval expectedElapsedTime = 1.0;
+	[self performSelector:@selector(myDelayedMethod) withObject:nil afterDelay:expectedElapsedTime];
+	
+	[self spinRunLoopUntilCompletionOrTimeout];
+	
+	NSTimeInterval endTime = [[NSDate date] timeIntervalSinceReferenceDate];	
+	NSTimeInterval elapsedTime = (endTime - startTime);
+	
+	STAssertEqualsWithAccuracy(elapsedTime, expectedElapsedTime, 0.01,
+						@"Expected elapsed time around %f, got %f", expectedElapsedTime, elapsedTime);	
+}
+
+- (void) testStringReversal
+{
+	NSString* helloString = @"Hello.";
+	NSString* expectedString = @".olleH";
+
+	// Reverse the string
+	NSString* actualString = [helloString stringByReversing];
+
+	// Confirm expectation
+	STAssertEqualObjects(expectedString, actualString,
+				@"Oh crap, we’re screwed.");
+}
+
+@end
+
+@implementation NSString (Test)
+
+- (NSString*) stringByReversing
+{
+	return @"o.lleH";
+}
+
+@end
