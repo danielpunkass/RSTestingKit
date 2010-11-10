@@ -33,7 +33,7 @@
 
 #define RSAssertMatchingStrings(actualString, expectedString, comment) \
 	do { \
-		STAssertTrue([actualString isEqualToString:expectedString], @"%@: expected %@ got %@", expectedString, actualString);\
+		STAssertTrue([actualString isEqualToString:expectedString], @"%@: expected %@ got %@", comment, expectedString, actualString);\
 	} while (0)
 	
 #define RSAssertFileExists(filePath, description, ...) \
